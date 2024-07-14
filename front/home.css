@@ -1,0 +1,42 @@
+.card{
+    
+    margin: 10px;
+    width:400px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+   height: 200px;
+   padding: 20px;
+   }
+   .container{
+    display: flex;
+    flex-wrap: wrap;
+   }
+.dish_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Published{
+    color: greenyellow;
+    border: none;
+    background-color: rgb(241, 234, 234);
+    width:100px;
+    height: 50px;
+    border-radius: 20%;
+    cursor: pointer;
+
+}
+.Not_Published{
+    color: red;
+    border: none;
+    background-color: rgb(241, 234, 234);
+    width:100px;
+    height: 50px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.image{
+    width:200px;
+    height:100px;
+    border-radius: 60%;
+    padding: 10px;
+}
